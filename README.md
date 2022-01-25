@@ -1,3 +1,3 @@
-# danielh05.github.io
+# danielah05.github.io
 the really poorly made source code for my website  
-link to website: https://danielh05.github.io/
+link to website: https://danielah05.github.io/
