@@ -1,9 +1,36 @@
 body {
-	background-color: black;
-	color: white;
-	text-align: center;
+    background-size: cover;
+    background-image: url("files/clouds.png");
 }
 
-a {
-	color:cyan;
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#center-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#left-panel {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    display: flex;
+    align-items: stretch;
+    transform: translate(25%, -50%);
+}
+
+.space {
+    width: 20px;
 }
