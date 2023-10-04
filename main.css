@@ -3,6 +3,10 @@ body {
     background-image: url("files/clouds.png");
 }
 
+a {
+	text-decoration: none;
+}
+
 #center {
     display: flex;
     align-items: center;
