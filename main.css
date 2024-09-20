@@ -1,0 +1,17 @@
+body {
+    font-family: "Comic Sans MS";
+    background-color: rgb(250, 191, 247);
+}
+
+.divcenter {
+    text-align: center;
+}
+
+.divcenterborder {
+    text-align: center;
+    border: 3px dotted rgb(98, 0, 128);
+}
+
+.logoimage {
+    width: 48px;
+}
