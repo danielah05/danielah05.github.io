@@ -12,6 +12,21 @@ body {
     border: 3px dotted rgb(98, 0, 128);
 }
 
+.divcontainer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
 .logoimage {
     width: 48px;
+}
+
+.projectimage {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.projectdescription {
+    padding: 10px;
 }
