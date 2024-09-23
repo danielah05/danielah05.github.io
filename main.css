@@ -27,6 +27,16 @@ body {
     max-height: 50%;
 }
 
+.blogimage {
+    max-width: 80%;
+    max-height: 80%;
+}
+
 .projectdescription {
     padding: 10px;
+}
+
+code { 
+    background: black;
+    color: white;
 }
