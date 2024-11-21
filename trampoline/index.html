@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="trampoline/trampoline.css">
+    <title>silly home page :3</title>
+  </head>
+  <body>
+    <main>
+      <div class="divcenter">
+        <h2>little daniela bounce count:</h2>
+        <h1 id="bouncecount">0</h1>
+        <img src="trampoline/boing.gif" alt="daniela trampoline">
+      </div>
+      <script>
+        var bouncenumber = 0;
+        var bouncesnd = new Audio("trampoline/boing.wav");
+
+        function doBounce() {
+          bouncenumber++;
+          document.getElementById("bouncecount").innerHTML = bouncenumber;
+          bouncesnd.currentTime = 0;
+          bouncesnd.play();
+        }
+        setInterval(doBounce, 600);
+      </script>
+    </main>
+  </body>
+</html>
