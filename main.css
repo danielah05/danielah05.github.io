@@ -1,42 +1,83 @@
 body {
     font-family: "Comic Sans MS";
-    background-color: rgb(250, 191, 247);
+    margin: auto;
+    height: 100vh;
+    background-image: radial-gradient(circle,rgba(44, 0, 112, 0.5) 0%, rgba(44, 0, 112, 1) 100%), url("assets/bg_grid1.png");
+    background-overflow: hidden;
 }
 
 .divcenter {
-    text-align: center;
-}
-
-.divcenterborder {
-    text-align: center;
-    border: 3px dotted rgb(98, 0, 128);
-}
-
-.divcontainer {
     display: flex;
-    margin: auto;
-    align-items: center;
+    justify-content: center;
+}
+
+.logocenter {
+    text-align: center;
+}
+
+.arttextcenter {
+    text-align: center;
+    margin-right: 80px;
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.boxdiv {
+    width: 830px;
+    height: 540px;
+    padding: 10px;
+    border: 5px solid #90dddc;
+    border-radius: 15px;
+    background-color: rgba(197, 244, 244, 0.8);
+}
+
+.boxheader {
+    width: 450px;
+    height: 15px;
+    padding: 10px;
+    border: 3px solid #90dddc;
+    border-radius: 15px;
+    background-color: rgba(197, 244, 244, 0.8);
+}
+
+.boxfooter {
+    width: 780px;
+    height: 70px;
+    padding: 10px;
+    border: 3px solid #90dddc;
+    border-radius: 15px;
+    background-color: rgba(197, 244, 244, 0.8);
+}
+
+.headertextcenter {
+    text-align: center;
+    margin-top: -6px;
+}
+
+.text {
+    float: left;
+    margin-left: 15px;
+}
+
+.images {
+    float: right;
+    margin-right: -60px;
+    padding: 22px 0;
 }
 
 .logoimage {
     width: 48px;
 }
 
-.projectimage {
-    max-width: 50%;
-    max-height: 50%;
+.contructiontext {
+    width: 70px;
 }
 
-.blogimage {
-    max-width: 80%;
-    max-height: 80%;
-}
-
-.projectdescription {
-    padding: 10px;
-}
-
-code { 
-    background: black;
-    color: white;
+.constructioncenter {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
