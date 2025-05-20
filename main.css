@@ -31,6 +31,15 @@ body {
     background-color: rgba(197, 244, 244, 0.8);
 }
 
+.boxdivxmpp {
+    width: 830px;
+    height: 1230px;
+    padding: 10px;
+    border: 5px solid #90dddc;
+    border-radius: 15px;
+    background-color: rgba(197, 244, 244, 0.8);
+}
+
 .boxheader {
     width: 450px;
     height: 15px;
